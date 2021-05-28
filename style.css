@@ -125,7 +125,7 @@ header{
    place-items: center;
    grid-template-columns: 1fr 1fr;
    background: var(--clr-5);
-   width: 100%;
+   width: 95%;
    position: relative;
    height: 80px;
    align-items: center;
