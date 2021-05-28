@@ -74,6 +74,12 @@ header{
 
 .fixed{
   position: fixed;
+  width: 95%;
+}
+@media screen and (max-width:900px) {
+  .fixed{
+    width: 100%;
+  }
 }
 
 .head{
@@ -125,7 +131,7 @@ header{
    place-items: center;
    grid-template-columns: 1fr 1fr;
    background: var(--clr-5);
-   width: 95%;
+   width: 100%;
    position: relative;
    height: 80px;
    align-items: center;
